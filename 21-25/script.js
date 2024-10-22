@@ -55,11 +55,57 @@
 // var newText = text.replace("Hyderabad", "Islamabad");
 // console.log(newText);
 
-    var change = "“Ali and Sami are best friends. They play cricket and football together.”";
-    var newStr = change.replace(/and/g, "&");
-    console.log(newStr);
+// var change = "“Ali and Sami are best friends. They play cricket and football together.”";
+// var newStr = change.replace(/and/g, "&");
+// console.log(newStr);
 
 
+// var str = "472";
+// console.log("Value:",str);
+// console.log("Type:",typeof str);
+// var newStr = parseInt(str);
+// console.log("Value:",newStr);
+// console.log("Type:",typeof newStr);
+
+
+// var user = prompt();
+// var cap = user.toUpperCase();
+// console.log(cap);
+
+
+// var name = prompt("Enter the name");
+// var char = name.charAt(0);
+// var first = char.toUpperCase();
+// var newStr = name.slice(1);
+// var cap =  first + newStr;
+// console.log(cap);
+
+
+// var num = 35.36;
+// var str = num.toString();
+// var  parts = str.replace(".","");
+// console.log(parts);
+
+
+
+
+
+function validateUsername() {
+    // Get the input value from the user
+    var username = document.getElementById("username").value;
+
+    // Define a regex pattern that matches any of the special characters [@, !, ., ,]
+    var invalidChars = /[@!.,]/;
+
+    // Check if the username contains any of the invalid characters
+    if (invalidChars.test(username)) {
+        // If true, show an alert to prompt user for valid username
+        alert("Please enter a valid username. Special characters @, !, ., , are not allowed.");
+    } else {
+        // If no invalid characters, show success message or proceed further
+        alert("Username is valid!");
+    }
+}
  
     
 
