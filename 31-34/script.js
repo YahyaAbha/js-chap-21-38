@@ -39,8 +39,8 @@
 // console.log(mint);
 
 
-var time = new Date();
-console.log(time);
+// var time = new Date();
+// console.log(time);
 
 
 
